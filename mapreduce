@@ -1,0 +1,5 @@
+cd Desktop
+cd SSP
+cd weather_classes
+$ javac -classpath ${HADOOP_HOME}/hadoop-${HADOOP_VERSION}-core.jar-d weather_classes MaxTemperatureMapper.java MaxTemperatureReducer.java MaxTemperature.java
+$jar -cvf /home/cnlab/SSP/maxtemperature.jar -c weather_classes/.
